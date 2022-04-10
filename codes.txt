@@ -1,0 +1,10 @@
+FIELDS_REQUIRED = all required fields where not given on the request
+INVALID_EMAIL = An invalid email was given. Does not match the regex operation
+SERVER_ERROR = When something goes wrong on the server typically 500 code
+EMAIL_TAKEN = An account with this email already exist
+ACCOUNT_CREATED = Success code when a successfull signup is completed
+INVALID_CREDENTIALS = login email or password is incorrect
+UNAUTHORIZED = user is not logged in / authenticated
+INVALID_TOKEN = invalid token when trying to access or do something that requires a valid refresh or access token
+TOKENS_REFRESHED = successfully refreshed all tokens
+NOT_ADMIN = Regular user tried to access admin protected route
