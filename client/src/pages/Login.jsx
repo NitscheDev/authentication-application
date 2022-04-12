@@ -26,6 +26,7 @@ function Login() {
                     <input type="password" name='password' autoComplete='off' value={password} onChange={(e) => setPassword(e.target.value)}/>
                 </div>
                 <button type="submit">login</button>
+                <p className='others'>No Account? Create one here</p>
             </Form>
         </Container>
     )
@@ -116,6 +117,16 @@ const Form = styled.form`
         &:hover {
             background: #3a52c9;
         }
+    }
+
+    .others {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        font-size: 14px;
+        color: #2a2a30;
     }
 `
 
